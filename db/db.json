@@ -1,0 +1,43 @@
+{
+    "products": [
+        {
+            "id" : 1,
+            "name": "iPhone",
+            "color": "white",
+            "price": 15000,
+            "category": "mobile",
+            "brand": "Apple",
+            "photo": "https://i5.walmartimages.com/seo/Restored-Apple-iPhone-X-256GB-Factory-Unlocked-Smartphone-Refurbished_9b5ec8b2-9665-463b-adc5-64829ba72da6.1b496e5a8fcee76fdad69bae12b54745.jpeg"
+        },
+        {
+            "id" : 2,
+            "name": "Face Mask",
+            "color": "black",
+            "price": 10,
+            "category": "mask",
+            "brand": "Maka Di Beer",
+            "photo": "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img,w_600,h_600/https://makabeer.space/shop/wp-content/uploads/2021/01/Mask-JPG-600x600.jpg"
+        },
+        {
+            "id" : 3,
+            "name": "T-shirt",
+            "color": "black",
+            "price": 200,
+            "category": "cloths",
+            "brand": "HeavyHand Enterprise",
+            "photo": "https://heavyhandenterprise.com/cdn/shop/products/1_20eb8745-8722-45da-814f-80fde91b860b_1024x.jpg?v=1614887031"
+        },
+        {
+            "id" : 4,
+            "name": "Watch",
+            "color": "black",
+            "price": 10000,
+            "category": "accessory",
+            "brand": "Chronograph",
+            "photo": "https://www.reeds.com/media/catalog/product/cache/38c3c1b8e53ef11aa9803a5390245afc/h/u/hugo_boss_center_court_chronograph_black_perforated_leather_strap_watch__44mm__1514022-1-20361804-hx74b60e83_1.jpg"
+        }
+    ],
+    "customRoutes": {
+        "/search": "/products?name_like=:term"
+    }
+}
